@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>وب سایت شخصی قالب متین</title>
+    <link rel="shortcut icon" href="./media/badge.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/74f94c5fa0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg bg-white navbar-light shadow-lg-lg shadow-sm d-flex align-items-start flex-lg-column flex-row"
+    >
+      <a class="navbar-brand m-lg-auto float-end d-lg-flex py-lg-3">
+        <img src="./media/badge.png" alt="" />
+      </a>
+
+      <button
+        class="navbar-toggler bg-warning mt-2 ms-2 d-flex justify-content-center rounded-0 border-0 d-lg-none"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#demo"
+      >
+        <span
+          class="fa-solid fa-bars py-1 dotted"
+          style="color: aliceblue; font-size: 25px"
+        ></span>
+      </button>
+
+      <div class="collapse navbar-collapse flex-column d-none d-lg-flex" id="">
+        <ul class="navbar-nav d-flex bg-white flex-column">
+          <li
+            class="nav-item d-flex justify-content-center align-content-center btgain nav-wh"
+          >
+            <a
+              href="#cont1"
+              class="nav-link d-flex justify-content-center align-items-center w-100 flex-wrap gap-1 py-3"
+            >
+              <i class="fa-solid fa-house"></i>
+              <p class="text-center pfs">صفحه اصلی</p>
+            </a>
+          </li>
+          <li
+            class="nav-item d-flex justify-content-center align-content-center nav-wh"
+          >
+            <a
+              href="#cont6"
+              class="nav-link d-flex justify-content-center align-items-center w-100 flex-wrap gap-1 py-3"
+            >
+              <i class="fa-solid fa-address-card"></i>
+              <p class="text-center pfs px-2">درباره من</p></a
+            >
+          </li>
+          <li
+            class="nav-item d-flex justify-content-center align-content-center nav-wh"
+          >
+            <a
+              href="#cont8"
+              class="nav-link d-flex justify-content-center align-items-center w-100 flex-wrap gap-1 py-3"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <p class="text-center pfs px-3">خدمات</p></a
+            >
+          </li>
+          <li
+            class="nav-item d-flex justify-content-center align-content-center nav-wh"
+          >
+            <a
+              href="#cont9"
+              class="nav-link d-flex justify-content-center align-items-center w-100 flex-wrap gap-1 py-3"
+            >
+              <i class="fa-solid fa-briefcase"></i>
+              <p class="text-center pfs px-3">نمونه کار</p></a
+            >
+          </li>
+          <li
+            class="nav-item d-flex justify-content-center align-content-center nav-wh"
+          >
+            <a
+              href="#cont10"
+              class="nav-link d-flex justify-content-center align-items-center w-100 flex-wrap gap-1 py-3"
+            >
+              <i class="fa-solid fa-book"></i>
+              <p class="text-center pfs px-4">بلاگ</p></a
+            >
+          </li>
+          <li
+            class="nav-item d-flex justify-content-center align-content-center nav-wh"
+          >
+            <a
+              href="#cont11"
+              class="nav-link d-flex justify-content-center align-items-center w-100 flex-wrap gap-1 py-3"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <p class="text-center pfs px-2">تماس با من</p></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-end" id="demo" style="width: 100px">
+      <div class="thing d-flex justify-content-center  ">
+        <a href="" class="pt-3"> <img src="./media/badge.png" alt="" class="" /></a>
+      </div>
+
+      <ul class="nav nav-tabs d-flex flex-column gap-1">
+        <li class="nav-item  " >
+          <li
+          class="nav-item   border-top "  >
+          <a class="nav-link d-flex flex-wrap-reverse justify-content-center align-items-center gap-1  " href="#cont1"
+            ><p class="w-100   d-flex justify-content-center pfs">صفحه اصلی</p>
+            <i class="fa-solid fa-house mt-1 "></i>
+          </a>
+        </li>
+        <li class="nav-item btgain "  >
+          <a class="nav-link d-flex flex-wrap-reverse justify-content-center align-items-center gap-1 " href="#cont6"
+            ><p class="w-100    d-flex justify-content-center pfs">درباره ما</p>
+            <i class="fa-solid fa-address-card mt-1" ></i
+          ></a>
+        </li>
+        <li class="nav-item  btgain " >
+          <a class="nav-link d-flex flex-wrap-reverse justify-content-center align-items-center gap-1" href="#cont8"
+            ><p class="w-100    d-flex justify-content-center pfs">خدمات</p>
+            <i class="fa-solid  fa-gear mt-1" ></i
+          ></a>
+        </li>
+        <li class="nav-item  btgain " >
+          <a class="nav-link d-flex flex-wrap-reverse justify-content-center align-items-center gap-1" href="#cont9"
+            ><p class="w-100    d-flex justify-content-center pfs">نمونه کار</p>
+            <i class="fa-solid fa-briefcase mt-1" ></i
+          ></a>
+        </li>
+        <li class="nav-item btgain " >
+          <a class="nav-link d-flex flex-wrap-reverse justify-content-center align-items-center gap-1" href="#cont10"
+            ><p class="w-100    d-flex justify-content-center pfs">بلاگ</p>
+            <i class="fa-solid fa-book mt-1" ></i
+          ></a>
+        </li>
+        <li class="nav-item btgain " >
+          <a class="nav-link d-flex flex-wrap-reverse justify-content-center align-items-center gap-0" href="#cont11"
+            ><p class="w-100    d-flex justify-content-center pfs">تماس با ما</p>
+            <i class="fa-solid fa-phone mt-1" ></i
+          ></a>
+        </li>
+
+        </li>
+      </ul>
+    </div>
+
+    <!-- container1 -->
+    <div class="container-fluid cont1  pe-5  " id="cont1" >
+      <div class="img img-fluid float-start cont2 d-flex align-items-center w-100  pe-lg-5">
+        <div class="cont3 me-0 h-50 me-lg-3" >
+          <div class="cont4 pe-lg-4 ps-lg-1 ps-3  ">
+          <p>
+            سلام!
+          </p>
+          <h2 class="fs-1 fw-bold pb-3">
+            علی رمضانخانی هستم.
+          </h2>
+          <p>
+            به وب سایت من خوش آمدید.
+            </p>
+          <p>
+            من یک طراح وب هستم، بسیار پرشور و خلاقیت اختصاص داده شده به کار من است. با   تجربه ۱۰ ساله به عنوان یک طراح گرافیک حرفه ای، من مهارت ها و دانش لازم را برای موفقیت پروژه خود به دست آورده ام.
+         </p>
+         <div class="cont5   d-flex gap-3  mt-4  pt-3">
+          <button class="bg-yellow btnw border-0 pb-1 ">
+            <span class="text-white ">نمونه کار</span>
+          </button>
+          <button class="btn-outline-warning btnw btnw1 br-yellow  pb-1 "><span class="text-yellow">تماس با من</span></button>
+        </div>
+        
+        </div>
+      
+        
+        </div>
+      </div>
+    </div>
+<!--"container-fluid cont6 -->
+    <div
+      class="container-fluid cont6  d-flex flex-wrap" id="cont6" >
+  <div class="up6 d-flex flex-wrap mt-5  col-12 px-4 px-lg-0 ">
+    <div class="text d-flex flex-nowrap col-12">
+    <h3 class="border-b fw-bold">دربا </h3>
+    <h3 class="fw-bold ">ره من</h3>
+    </div>
+    <p class="small  text-secondary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+  </div>
+  <div class="down6  d-flex flex-lg-nowrap flex-wrap-reverse gap-lg-5 px-4 px-lg-0">
+    <div class="right6 d-flex  justify-content-center mb-5 my-lg-5 ">
+      <img src="./media/about-us.jpg" alt="" class="img-thumbnail1 rounded-3">
+    </div>
+    <div class="left6 w-100 d-lg-inline-block gap-0 ">
+      <h1 class="fs-3">
+        علی رمضانخانی
+        </h1>
+      <p class="pt-3">
+
+        طراح و برنامه نویس وب در ایران
+        </p>
+      <p class="text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+      <p class="text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+      <button class=" bg-yellow rounded-3 border-0 button6  mt-5  me-lg-4"><span class="text-light" >دانلود رزومه</span></button>
+    </div>
+    
+  </div>
+  
+  </div>
+
+  <!--container-fluid cont7 -->
+  <div class="container-fluid cont7  h-auto mb-2 w-100 " id="cont7">
+    <div class="up7 d-flex flex-wrap mb-3 mt-5  col-12">
+      <div class="text d-flex flex-nowrap col-12">
+        <h3 class="border-b fw-bold">مها</h3>
+        <h3 class="fw-bold ">رت های من</h3>
+        </div>
+        <p class="small  text-secondary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+    </div>
+    <div class="down7 d-flex flex-lg-nowrap flex-lg-wrap flex-wrap-reverse">
+    <div class="left7   col-12 col-lg-6 py-4 ps-4">
+
+
+      <h6 class="fw-bold fs-6 pb-1">  طراحی رابط کاربری</h6>    
+
+      <div class="progress mb-4 ">
+        <div class="progress-bar bg-warning" style="width:85%">          
+        </div>
+      </div>  
+      
+      <h6 class="fw-bold fs-6 pb-1">طراحی وب سایت</h6>
+      <div class="progress mb-4">
+        <div class="progress-bar bg-warning" style="width:95%">        
+        </div>
+      </div>
+      
+      <h6 class="fw-bold fs-6 pb-1">اپلیکیشن موبایل</h6>
+      <div class="progress mb-4">
+        <div class="progress-bar bg-warning" style="width:70%">    
+        </div>
+      </div>
+
+      <h6 class="fw-bold fs-6 pb-1">   قالب وردپرس</h6>
+      <div class="progress mb-4">
+        <div class="progress-bar bg-warning" style="width:75%">  
+        </div>
+      </div>
+      
+    </div>
+    <div class="right7 d-flex flex-wrap gap-2 p-5  justify-content-center  px-lg-0">
+      
+      <div class="r7   h-auto d-flex  flex-row-reverse w-100 gap-lg-4 gap-4 justify-content-center ">
+        <div class="r71 br-yellow rounded-1 mb-3 bg-white shadow  d-flex flex-lg-nowrap flex-wrap  ">
+          <div class="icon7  m-auto ">
+          <div class="img7 rounded-2  my-auto  d-flex align-items-center justify-content-center me-lg-3">
+            <i class="fa-solid fa-check fa-size" style="color:#feb000;"></i>          </div>
+        </div>
+        <div class="h57 m-auto  px-lg-0 px-2">
+          <h5 class="text-center">۵۰+ پروژه انجام شده</h5>
+        </div>
+        </div>
+
+        <div class="r71 br-yellow rounded-1 mb-3 bg-white shadow d-flex flex-lg-nowrap flex-wrap " >
+          <div class="icon7  m-auto ">
+
+          <div class="img7  rounded-2   my-auto  d-flex align-items-center justify-content-center me-lg-3">
+            <i class="fa-solid fa-person fa-size" style="color:  #feb000;"></i>
+          </div>
+        </div>
+        <div class="h57  m-auto">    
+              <h5 class="  text-center  px-lg-0 px-2 ">۶۰+ مشتری خوشحال</h5>
+        
+        </div>
+        </div>
+
+      </div>
+      
+      <div class="r7 d-flex flex-row-reverse w-100 gap-lg-4  gap-4 justify-content-center ">
+        <div class="r71 br-yellow rounded-1 mb-3 bg-white shadow d-flex flex-lg-nowrap flex-wrap">
+          <div class="icon7  m-auto ">
+
+          <div class="img7  rounded-2   my-auto d-flex align-items-center justify-content-center me-lg-3">
+            <i class="fa-regular fa-calendar-days fa-size" style="color: #feb000;"></i>
+          </div>
+        </div>
+          <div class="h57  m-auto  px-lg-0 px-2">
+          <h5 class="text-center">۱۰+ سال سابقه</h5>
+        </div>
+        </div>
+        
+        <div class="r71 br-yellow rounded-1 mb-3 bg-white shadow d-flex flex-lg-nowrap flex-wrap" >
+          <div class="icon7 m-auto  ">
+
+          <div class="img7  rounded-2    d-flex align-items-center justify-content-center me-lg-3 ">
+            <i class="fa-regular fa-handshake fa-size" style="color: #feb000;"></i>
+          </div>        </div>
+          <div class="h57  m-auto  px-lg-0 px-2">
+          <h5 class="text-center ">۱۰+ پروژه در دست انجام</h5>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- container-fluid cont8 -->
+<div class="container-fluid cont8  py-5" id="cont8">
+  <div class="top8">
+  <div class="text d-flex flex-nowrap col-12">
+    <h3 class="border-b fw-bold">خد</h3>
+    <h3 class="fw-bold ">مات</h3>
+    </div>
+    <p class="small  text-secondary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+  </div>
+    <div class="down8  pt-5  gap-4 d-flex flex-wrap">
+      <div class="dup8 d-flex flex-wrap gap-4 gap-lg-4 flex-lg-nowrap">
+    <div class="card bg-white pb-4 px-4 ">
+      <img class="card-img-top " src="./media/service (1).png" alt="Title" />
+      <div class="card-body">
+        <h4 class="card-title">طراحی وب</h4>
+        <p class="card-text text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+      </div>
+    </div>
+
+    <div class="card bg-white pb-4 px-4 ">
+      <img class="card-img-top " src="./media/service (1).png" alt="Title" />
+      <div class="card-body">
+        <h4 class="card-title">طراحی وب</h4>
+        <p class="card-text text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+      </div>
+    </div>
+
+    <div class="card bg-white pb-4 px-4 ">
+      <img class="card-img-top " src="./media/service (1).png" alt="Title" />
+      <div class="card-body">
+        <h4 class="card-title">طراحی وب</h4>
+        <p class="card-text text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="dup8 d-flex flex-wrap gap-4 gap-lg-4 flex-lg-nowrap">
+    <div class="card bg-white pb-4 px-4 ">
+      <img class="card-img-top " src="./media/service (1).png" alt="Title" />
+      <div class="card-body">
+        <h4 class="card-title">طراحی وب</h4>
+        <p class="card-text text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+      </div>
+    </div>
+
+    <div class="card bg-white pb-4 px-4 ">
+      <img class="card-img-top " src="./media/service (1).png" alt="Title" />
+      <div class="card-body">
+        <h4 class="card-title">طراحی وب</h4>
+        <p class="card-text text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+      </div>
+    </div>
+
+    <div class="card bg-white pb-4 px-4 ">
+      <img class="card-img-top " src="./media/service (1).png" alt="Title" />
+      <div class="card-body">
+        <h4 class="card-title">طراحی وب</h4>
+        <p class="card-text text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+      </div>
+    </div>
+  </div>
+  </div>
+    
+</div>
+<!-- container-fluid cont9 -->
+<div class="container-fluid cont8 bg-white py-5 d-flex flex-wrap " id="cont9">
+  <div class="up9 col-12 pb-5">
+  <div class="text d-flex flex-nowrap col-12">
+    <h3 class="border-b fw-bold">نمو</h3>
+    <h3 class="fw-bold ">نه کارها</h3>
+    </div>
+    <p class="small  text-secondary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+
+</div>
+
+<div class="down9 col-12 d-flex flex-wrap h-auto gap-lg-0 gap-0 justify-content-center pt-3 pt-lg-0 ">
+  <div class="img9 col-lg-4 col-6 mb-3"><img src="./media/example (1).png" alt="" class="rounded-2" ></div>
+  <div class="img9 col-lg-4 col-6 mb-3"><img src="./media/example (2).png" alt="" class="rounded-2" > </div>
+  <div class="img9 col-lg-4 col-6 mb-3"><img src="./media/example (3).png" alt="" class="rounded-2" > </div>
+  <div class="img9 col-lg-4 col-6 mb-3"><img src="./media/example (4).png" alt="" class="rounded-2" > </div>
+  <div class="img9 col-lg-4 col-6 mb-3"><img src="./media/example (5).png" alt="" class="rounded-2" > </div>
+  <div class="img9 col-lg-4 col-6 mb-3"><img src="./media/example (6).png" alt="" class="rounded-2" > </div>
+
+</div>
+</div></div>
+
+<!-- container-fluid cont10 -->
+<div class="container-fluid cont10  pt-5 mb10 " id="cont10">
+  <div class="up10 pb-3">
+  <div class="text d-flex flex-nowrap col-12">
+    <h3 class="border-b fw-bold">آخر</h3>
+    <h3 class="fw-bold ">ین نوشته ها</h3>
+    </div>
+    <p class="small  text-secondary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+</div>
+<div class="mid10 col-12 d-flex flex-lg-wrap  pt-lg-5 flex-wrap  ">
+  
+  <div class="card10 col-lg-4  mt-5 mt-lg-0">
+    <div class="card-header d-flex justify-content-center">
+      <img src="./media/blog-post-1.jpg" alt="" class="">      
+  </div>
+  <div class="card-add px-3 shadow-sm">
+  <div class="card-body10   bg-yellow d-flex justify-content-center align-items-center">
+    <span class="card-title text-white ">۱ اردیبهشت ۱۳۹۹</span>
+  </div>
+  <div class="card-footer10  bg-white">
+    <div class="text10 py-3"> 
+      <a href="" class="text-decoration-none mb-1 text-dark"><h5>همایش یک روزه تخصصی وردپرس</h5></a>
+<span>راحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و ...</span>
+</div>
+   
+    <button class="border-special10 text-decoration-none text-yellow  bg-white mb-3" href=""><span class="fw-bold">ادامه مطلب</span></button>
+  </div>
+</div>
+</div> 
+<div class="card10 col-lg-4 ">
+  <div class="card-header  d-flex justify-content-center">
+    <img src="./media/blog-post-2.jpg" alt="" class="">      
+</div>
+<div class="card-add px-3 shadow-sm">
+<div class="card-body10   bg-yellow d-flex justify-content-center align-items-center">
+  <span class="card-title text-white ">۱ اردیبهشت ۱۳۹۹</span>
+</div>
+<div class="card-footer10  bg-white">
+  <div class="text10 py-3"> 
+    <a href="" class="text-decoration-none mb-1 text-dark"><h5>همایش یک روزه تخصصی وردپرس</h5></a>
+<span>راحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و ...</span>    </div>
+ 
+  <button class="border-special10 text-decoration-none text-yellow  bg-white mb-3 " href=""><span class="fw-bold">ادامه مطلب</span></button>
+</div>
+</div>
+</div>
+  <div class="card10  col-lg-4 ">
+    <div class="card-header  d-flex justify-content-center">
+      <img src="./media/blog-post-3.jpg" alt="" class="">      
+  </div>
+  <div class="card-add px-3 shadow-sm">
+  <div class="card-body10   bg-yellow d-flex justify-content-center align-items-center">
+    <span class="card-title text-white ">۱ اردیبهشت ۱۳۹۹</span>
+  </div>
+  <div class="card-footer10  bg-white">
+    <div class="text10 py-3"> 
+      <a href="" class="text-decoration-none mb-1 text-dark"><h5>همایش یک روزه تخصصی وردپرس</h5></a>
+
+    
+<span>راحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و ...</span>  
+  </div>
+   
+    <button class="border-special10 text-decoration-none text-yellow  bg-white mb-3" href=""><span class="fw-bold">ادامه مطلب</span></button>
+  </div>
+</div>
+</div>
+</div>
+<div class="down10  d-flex justify-content-center align-items-end">
+  <button type="button" class=" button10 border-0 bg-yellow rounded-1 d-flex align-items-center justify-content-center"><span class="text-white">مشاهده تمامی مطالب بلاگ</span></button>
+</div>
+</div>
+<!-- container-fluid cont11 -->
+<div class="container-fluid cont8 py-5  bg-color " id="cont11">
+  <div class="up10">
+    <div class="text d-flex flex-nowrap col-12 ">
+      <h3 class="border-b fw-bold">تما</h3>
+      <h3 class="fw-bold ">س با ما</h3>
+      </div>
+      <p class="small  text-secondary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+  </div>
+<div class="down11 d-flex flex-wrap-reverse flex-lg-nowrap  col-lg-12 pt-5">
+<div class="right11  col-lg-8 ps-lg-4 ">
+  <div class="form11 col-lg-12 m-auto  p-4 bg-white ROUNDRD11 shadow">
+
+    <form class=" d-flex flex-wrap col-12 justify-content-center gap-lg-0 gap-5 ">
+      <div class="input11 col-12 d-flex flex-lg-nowrap m-3 justify-content-between ">
+      <input type="text" name="" id=""  placeholder="نام*"   class="  border11 IN11 pb-2 px-3" >
+      <input type="email" name="" id="" placeholder="ایمیل*" class="  border11 IN11 pb-2" >
+    </div>
+      <input type="text" value=""     placeholder="موضوع*"  class="col-12 border11 pb-2 m-lg-5 pe-3" >
+        <textarea class="form-control border-0 border11 pb-2 COL-12 " name="" id="" rows="4" placeholder="متن پیام*"></textarea>
+      
+    </form> 
+    <button class="bg-yellow py-2 px-3 my-2 me-2 mt-4 border-0"><span class="text-white">ارسال</span></button>
+  </div>
+  
+</div>
+<div class="left11 col-12 col-lg-4  pe-lg-2 d-flex flex-column gap-lg-4 flex-wrap gap-5  pb-5  ">
+  <div class="item bg-white d-flex flex-wrap flex-lg-nowrap  w-100 align-items-center  justify-content-start pe-2 pe-lg-3  pt-3 pt-lg-0 shadow">
+    <div class="circle-item rounded-circle bg-yellow  d-flex justify-content-center align-items-center me-2  ">
+      <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+    </div>
+    <div class="item-text d-flex   flex-wrap mt-3 justify-content-start col-12 col-lg-6 me-3">
+      <h6 class="fw-bold">تلفن</h6>
+      <p class="text-secondary  col-lg-0 col-12">۰۲۱-۲۲۳۳۴۴۵۵</p>
+    </div>
+  </div> 
+  <div class="item bg-white d-flex flex-wrap flex-lg-nowrap  w-100 align-items-center  justify-content-start pe-2 pe-lg-3  pt-3 pt-lg-0 shadow">
+    <div class="circle-item rounded-circle bg-yellow  d-flex justify-content-center align-items-center me-2 ">
+      <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+    </div>
+    <div class="item-text d-flex   flex-wrap mt-3 justify-content-start col-12 col-lg-6 me-3">
+      <h6 class="fw-bold">ایمیل</h6>
+      <p class="text-secondary  col-lg-0 col-12">info@matin.ir</p>
+    </div>
+  </div>
+  <div class="item bg-white d-flex flex-wrap flex-lg-nowrap  w-100 align-items-center  justify-content-start pe-2 pe-lg-3  pt-3 pt-lg-0 shadow">
+    <div class="circle-item rounded-circle bg-yellow  d-flex justify-content-center align-items-center me-2 ">
+      <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+    </div>
+    <div class="item-text1 d-flex   flex-wrap mt-3 justify-content-start col-12 col-lg-6 me-3  ">
+      <h6 class="fw-bold col-lg-0 col-12 ">آدرس</h6>
+      <p class="text-secondary  col-lg-0 col-12">ایران، تهران، خیابان شریعتی، پلاک ۱</p>
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+</div>
+  </body>
+</html>
