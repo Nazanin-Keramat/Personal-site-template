@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  transition: 1000ms;
+}
